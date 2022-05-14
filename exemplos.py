@@ -1,32 +1,3 @@
-# import random
-#
-# r =[]
-# chances = 3
-# while True:
-#     if chances <=0 :
-#         print("voçê perdeu")
-#         break
-#     v = random.randint(1, 5)
-#     n = int(input('digite um numero de "1 a 5":'))
-#
-#     r.append(v)
-#     print(r)
-#     if n == v:
-#         print("acertou")
-#         print(f'o numero correto foi {r}')
-#         print('fim de jogo')
-#         break
-#     else:
-#         print("errou")
-#         print(f'o numero correto foi {r}')
-#     if n not in r:
-#         chances -= 1
-#     print(f'voçê ainda tem {chances} chance')
-#     print()
-#     continue
-#
-
-
 import random
 lista_vazia = []
 chances = 5
